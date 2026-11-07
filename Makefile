@@ -2,7 +2,7 @@
 # Python 3.10+ and GNU Make. On Windows use an installed GNU Make (e.g. Git Bash/WSL).
 PYTHON ?= python
 
-.PHONY: help test quality quality-basic notify-demo checkpoint-demo clean-local
+.PHONY: help test quality quality-basic notify-demo checkpoint-demo
 
 help:
 	@echo "make test             - Run utility regression tests with bounded output"
