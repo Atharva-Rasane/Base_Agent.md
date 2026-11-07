@@ -1,0 +1,7 @@
+# Local agent runtime data; may contain sensitive command output.
+.agent_logs/
+TASK_STATE.md
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
